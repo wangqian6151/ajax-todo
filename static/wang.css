@@ -1,0 +1,68 @@
+h1{
+    font-family: sans-serif;
+    color: #80623f;
+}
+
+body{
+    font-family: Verdana, Geneva, Arial;
+    font-size: medium;
+
+}
+
+.content{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.header{
+    text-align: center;
+}
+
+.todo-cell{
+    border-color: black;
+    border-width: 1px;
+    border-style: groove;
+    /*background-color: lightgray;*/
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px;
+}
+
+.todo-list{
+    border-width: thin;
+    border-style: solid;
+    border-color: #007e7e;
+
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+span{
+    font-weight: bold;
+}
+
+.weibo-list{
+    border-width: thin;
+    border-style: solid;
+    border-color: #007e7e;
+
+
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.weibo-cell{
+    border-color: black;
+    border-width: 1px;
+    border-style: groove;
+    /*background-color: lightgray;*/
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px;
+}

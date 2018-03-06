@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/pure/1.0.0/pure-min.css" >
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 {{username}}</h2>
+    <form action="/login" method="post" class="pure-form pure-form-stacked">
+        <legend></legend>
+        <label for="username">用户名</label>
+        <input type="text" name="username" placeholder="请输入用户名">
+
+        <label for="password">密码</label>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit" class="pure-button pure-button-primary">登录</button>
+
+        <label for="register">
+            <p>没有注册？<a href="/register">请注册</a></p>
+        </label>
+    </form>
+    <h3>{{result}}</h3>
+</body>
+</html>
